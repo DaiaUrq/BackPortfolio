@@ -33,8 +33,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Daia
  */
 @RestController
-@RequestMapping("auth")
-@CrossOrigin(origins = "https://portfolio-frontend-daia.web.app")
+@RequestMapping("/auth")
+@CrossOrigin(origins = "**")
 public class AuthController {
     
     @Autowired
