@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("skill")
-@CrossOrigin(origins = "https://portfolio-frontend-daia.web.app")
+@CrossOrigin(origins ={" https://portfolio-frontend-daia.web.app","http://localhost:4200"})
 public class SkillController {
 
     @Autowired
